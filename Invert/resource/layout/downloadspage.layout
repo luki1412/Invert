@@ -1,0 +1,89 @@
+"resource/layout/downloadspage.layout"
+{
+	controls
+	{
+		// the container
+		"DownloadsPage"
+		{
+			"ControlName"		"CDownloadsPage"
+			Style=DownloadsPageStyle
+		}
+		
+		"downloadsummarypanel"
+		{
+			"ControlName"	"DownloadSummaryPanel"
+		}
+	
+		"panel_list"
+		{
+			"ControlName"	"SectionedListPanel"
+			Style=ListPanelStyle
+		}
+				
+	}
+	
+	styles
+	{
+		SectionedListPanelCollapser
+		{
+			inset = "0 0 0 -2"
+			bgcolor=propertysheetbg111
+		}
+		SectionHeaderStyle
+		{
+			font-style="uppercase"
+			render_bg 
+			{	
+				// background gradient
+				0="gradient_horizontal( x0 - 2, y0, x1, y1, propertysheetbg111, Friends.ListHeaderFadeOut )"
+			}
+			render
+			{
+				
+			}
+		}
+		SectionHeaderStyleLabel
+		{
+			inset = "0 4 0 0"
+			font-style="uppercase"
+			textcolor="TextHover"
+		}
+		DownloadsPageStyle
+		{
+
+			bgcolor=none
+			render
+			{
+
+			}			
+		}
+		ListPanelStyle
+		{
+			inset = "0 0 0 0"
+			bgcolor=almostblack
+			font-family=basefont
+			font-size=14
+			font-weight=400
+			textcolor="Text"
+			selectedtextcolor="TextSelected"
+			selectedbgcolor="Focus"
+			shadowtextcolor="TextDisabled"	// the color of disabled line items		
+			render
+			{
+
+			}
+			render_bg 
+			{	
+				// background gradient
+				0="gradient( x0, y0, x1, y0 + 149, WhiteWolf, WhiteWolf )"
+				1="fill( x0, y0 + 149, x1, y1, WhiteWolf )"
+			}
+		}	
+	}
+
+	layout
+	{
+		region { name=main x=0 y=0 margin=5 }
+		place { control="downloadsummarypanel,panel_list" dir=down region=main width=max height=max spacing=0 }
+	}
+}
