@@ -19,13 +19,13 @@ Installation on Windows:
 	4.Enjoy.
 
 Installation on Os X: Follow instructions on this page: 
-	1.Navigate to Steam.app in Finder. Right-click it and select ‘Show Package Contents’.
-	2.Go to ‘Contents/MacOS/skins’.
+	1.Navigate to Steam.app in Finder. Right-click it and select â€˜Show Package Contentsâ€™.
+	2.Go to â€˜Contents/MacOS/skinsâ€™.
 	3.Copy the folder which directly contains your desired skin.
-	4.Paste the skin into Steam.app’s skins directory.
-	5.Go to ‘~/Library/Application Support/Steam’ and open registry.vdf with your text editor of choice.
+	4.Paste the skin into Steam.appâ€™s skins directory.
+	5.Go to â€˜~/Library/Application Support/Steamâ€™ and open registry.vdf with your text editor of choice.
 	6.Add "SkinV4" "<name of skin>" to the list inside "Registry" { "HKCU" { "Software" { "Valve" { "Steam" {. 
-	  Save the file, and you’re set.
+	  Save the file, and youâ€™re set.
 
 Installation on Linux: 
 	1.Extract the folder "Invert" from the provided .zip file into "Home/.local/share/Steam/skins". 
