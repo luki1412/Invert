@@ -6,14 +6,14 @@ steam.styles
     // it can also include just general settings controls can pull from for extra customization
 
     black="255 255 255 255"
-    dark="220 220 220 255"
+    dark="222 222 222 255"
     almostBlack="233 233 233 255"
     almostBlackTrans="233 233 233 204"
     white="0 0 0 255"
-    grey="102 102 102 255"
+    grey="103 103 103 255"
     none="0 0 0 0"
     yellow="255 255 0 255"
-    offwhite="91 91 91 255"
+    offwhite="93 93 93 255"
     dullgreen="216 222 211 255"
     maize="203 191 87 255"
     red="255 51 51 255"
@@ -23,8 +23,8 @@ steam.styles
     darkpurple="64 0 64 255"
 
     dark_blue "2 15 23 255"
-		med_blue "13 52 82 255"
-		bg_blue "10 36 56 255"
+    med_blue "13 52 82 255"
+    bg_blue "10 36 56 255"
 
     // control colors
     bordercolor="153 153 153 255"
@@ -55,7 +55,7 @@ steam.styles
     ButtonBorderFocus="118 118 118 255"
     ButtonBorderFocusSubtle="133 133 133 255"
 
-    Text="48 48 48 255"
+    Text="47 47 47 255"
     Text2="75 75 75 255"
     TextDisabled="156 156 156 255"
     TextHover="29 29 29 255"
@@ -69,10 +69,10 @@ steam.styles
     redborder="169 72 71 255"
 
     NavLabel="102 102 102 255"
-    Label="87 87 87 255"
-    Label2="144 144 144 255"
+    Label="76 76 76 255"
+    Label2="143 143 143 255"
     LabelDisabled="140 140 140 255"
-    LabelFocus="59 59 59 255"
+    LabelFocus="58 58 58 255"
 
     SuperNav="white"
     SuperNavHover="white"
@@ -862,6 +862,7 @@ steam.styles
 		image="graphics/win32_win_min"
 		image="graphics/osx_win_dis" [$OSX]
 		image="graphics/osx_win_dis_new_dark" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
     FrameMinimizeButton:hover
@@ -871,6 +872,7 @@ steam.styles
 		image="graphics/win32_win_min_hover"
 		image="graphics/osx_min_hov" [$OSX]
 		image="graphics/osx_min_hov_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameMinimizeButton:framefocus [$OSX]
@@ -879,6 +881,7 @@ steam.styles
 		bgcolor="none"
 		image="graphics/osx_min_def"
 		image="graphics/osx_min_def_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameMinimizeButton:framefocus:hover [$OSX]
@@ -887,6 +890,7 @@ steam.styles
 		bgcolor="none"
 		image="graphics/osx_min_hov"
 		image="graphics/osx_min_hov_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameMinimizeButton:active [$OSX]
@@ -895,6 +899,7 @@ steam.styles
 		bgcolor="none"
 		image="graphics/osx_min_down"
 		image="graphics/osx_min_down_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	// need the maximize button to have different styles for OSX & win32
@@ -904,6 +909,7 @@ steam.styles
 		image="graphics/win32_win_max"
 		image="graphics/osx_win_dis" [$OSX]
 		image="graphics/osx_win_dis_new_dark" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameMaximizeButton:hover
@@ -913,6 +919,7 @@ steam.styles
 		image="graphics/win32_win_max_hover"
 		image="graphics/osx_max_hov" [$OSX]
 		image="graphics/osx_max_hov_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameMaximizeButton:framefocus
@@ -922,6 +929,7 @@ steam.styles
 		image="graphics/win32_win_max"
 		image="graphics/osx_max_def" [$OSX]
 		image="graphics/osx_max_def_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameMaximizeButton:framefocus:hover
@@ -931,6 +939,7 @@ steam.styles
 		image="graphics/win32_win_max_hover"
 		image="graphics/osx_max_hov" [$OSX]
 		image="graphics/osx_max_hov_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameMaximizeButton:active
@@ -940,6 +949,7 @@ steam.styles
 		image="graphics/win32_win_max_hover"
 		image="graphics/osx_max_down" [$OSX]
 		image="graphics/osx_max_down_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	// these are for when the maximize button becomes the restore button
@@ -949,6 +959,7 @@ steam.styles
 		image="graphics/win32_win_restore"
 		image="graphics/osx_win_dis" [$OSX]
 		image="graphics/osx_win_dis_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameRestoreButton:hover
@@ -958,6 +969,7 @@ steam.styles
 		image="graphics/win32_win_restore_hover"
 		image="graphics/osx_max_hov" [$OSX]
 		image="graphics/osx_max_hov_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameRestoreButton:framefocus
@@ -965,8 +977,9 @@ steam.styles
 		render_bg {}
 		bgcolor="none"
 		image="graphics/win32_win_restore"
-    		image="graphics/osx_max_def" [$OSX]
-    		image="graphics/osx_max_def_new" [$OSX1010]
+    	image="graphics/osx_max_def" [$OSX]
+    	image="graphics/osx_max_def_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameRestoreButton:framefocus:hover
@@ -976,6 +989,7 @@ steam.styles
 		image="graphics/win32_win_restore_hover"
 		image="graphics/osx_max_hov" [$OSX]
 		image="graphics/osx_max_hov_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameRestoreButton:active
@@ -985,6 +999,7 @@ steam.styles
 		image="graphics/win32_win_restore_hover"
 		image="graphics/osx_max_down" [$OSX]
 		image="graphics/osx_max_down_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameCloseButton
@@ -993,6 +1008,7 @@ steam.styles
 		image="graphics/win32_win_close"
 		image="graphics/osx_win_dis" [$OSX]
 		image="graphics/osx_win_dis_new_dark" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameCloseButton:hover
@@ -1001,6 +1017,7 @@ steam.styles
 		image="graphics/win32_win_close_hover"
 		image="graphics/osx_close_hov" [$OSX]
 		image="graphics/osx_close_hov_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameCloseButton:framefocus [$OSX]
@@ -1009,6 +1026,7 @@ steam.styles
 		bgcolor="none"
 		image="graphics/osx_close_def"
 		image="graphics/osx_close_def_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameCloseButton:framefocus:hover [$OSX]
@@ -1017,6 +1035,7 @@ steam.styles
 		bgcolor="none"
 		image="graphics/osx_close_hov"
 		image="graphics/osx_close_hov_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameCloseButton:active [$OSX]
@@ -1025,6 +1044,7 @@ steam.styles
 		bgcolor="none"
 		image="graphics/osx_close_down"
 		image="graphics/osx_close_down_new" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
 	FrameCloseButton:disabled
@@ -1034,6 +1054,7 @@ steam.styles
 		image="graphics/win32_win_close_disabled"
 		image="graphics/osx_win_dis" [$OSX]
 		image="graphics/osx_win_dis_new_dark" [$OSX1010]
+		inset="-6 0 0 0" [$OSX]
     }
 
     FrameTitle
