@@ -786,7 +786,7 @@
 
 		backdrop "234 235 237 255"
 
-		disabledborder "220 220 220 255"
+		disabledborder "192 192 192 255"
 	}
 
 	layout
