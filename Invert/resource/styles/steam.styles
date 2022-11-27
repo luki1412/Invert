@@ -88,6 +88,8 @@ steam.styles
 
     TitleBar="240 240 240 30"
     TitleBarFocus="0 0 0 0"
+    ToolWindowTitleBar="220 215 210 255"
+    ToolWindowTitleBarFocus="0 0 0 0"
     MenuBG="222 222 222 255"
 
     Focus0="23 51 77 255" // used in window frame borders
@@ -216,11 +218,6 @@ steam.styles
     WhiteWolf="225 225 225 255"
     WhiteWolf2="215 215 215 255"
     WhiteWolf3="205 205 205 255"
-    InstalledGame="0 100 0 255"
-    InstalledGameOver="0 75 0 255"
-    GridColInstalled="0 0 0 140"
-    GridColUninstalled="255 255 255 140"
-    GridColUpdating="165 15 121 140"
     PropertySheetBG111="185 185 185 255"
     PropertySheetBG222="190 190 190 255"
 
@@ -297,6 +294,8 @@ steam.styles
     TextEntry.IMEBGColor        "30 30 30 255"
     TextEntry.IMEFGColor        "black"
 
+	// Login frame colors
+	Login.BGTop					"222 220 215 255"
 
     // Friends List colors
     Friends.InGameColor       "119 154 50 255"
@@ -1086,7 +1085,7 @@ steam.styles
 		textcolor="texthover" [$OSX]
 	  render_bg
 	    {
-		     2="gradient( x0, y0, x1, y0 + 48, TitleBarfocus, none )"
+		     2="gradient( x0, y0, x1, y0 + 48, TitleBarFocus, none )"
 	    }
     }
 
@@ -1227,14 +1226,14 @@ steam.styles
 
     "GameItem_Running"
     {
-      textcolor="InstalledGame"
-      selectedtextcolor="InstalledGameOver"
+      textcolor="Friends.InGameColor"
+      selectedtextcolor="white"
     }
 
     "GameItem_Running:hover"
     {
-      textcolor="InstalledGameOver"
-      selectedtextcolor="InstalledGameOver"
+      textcolor="white"
+      selectedtextcolor="white"
     }
 
     "GameItem_Shortcut"

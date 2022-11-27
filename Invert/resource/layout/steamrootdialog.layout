@@ -650,7 +650,7 @@
 		{
 			render_bg {}
 			inset="0 0 4 0"
-			inset="0 0 -2 -8" [$OSX]
+			inset="-6 0 -2 -8" [$OSX]
 			padding-top=13 [!$OSX]
 			image="graphics/win32_win_restore"
 			image="graphics/osx_win_dis" [$OSX]
@@ -661,7 +661,7 @@
 		{
 			render_bg {}
 			inset="0 0 4 0"
-			inset="0 0 -2 -8" [$OSX]
+			inset="-6 0 -2 -8" [$OSX]
 			padding-top=13 [!$OSX]
 			bgcolor="none"
 			image="graphics/win32_win_restore_hover"
@@ -673,7 +673,7 @@
 		{
 			render_bg {}
 			inset="0 0 4 0"
-			inset="0 0 -2 -8" [$OSX]
+			inset="-6 0 -2 -8" [$OSX]
 			padding-top=13 [!$OSX]
 			bgcolor="none"
 			image="graphics/win32_win_restore"
@@ -685,7 +685,7 @@
 		{
 			render_bg {}
 			inset="0 0 4 0"
-			inset="0 0 -2 -8" [$OSX]
+			inset="-6 0 -2 -8" [$OSX]
 			padding-top=13 [!$OSX]
 			bgcolor="none"
 			image="graphics/win32_win_restore_hover"
@@ -697,7 +697,7 @@
 		{
 			render_bg {}
 			inset="0 0 4 0"
-			inset="0 0 -2 -8" [$OSX]
+			inset="-6 0 -2 -8" [$OSX]
 			padding-top=13 [!$OSX]
 			bgcolor="none"
 			image="graphics/win32_win_restore_hover"
