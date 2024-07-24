@@ -2,6 +2,7 @@
 Inverted Steam skin
 ![steam_Jd2b1Dzs52](https://user-images.githubusercontent.com/20016096/184612646-92e48dc9-b693-45b4-8615-c4de428112fd.png)
 
+# As of June 2023, Valve has officially removed official skin support for the main window frame and additional windows in Steam Beta, and for the Friends List in July 2018. This means that traditional VGUI-based skins are no longer compatible with the latest Steam client.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
